@@ -1,28 +1,130 @@
 [
   {
-    "move_number": 6,
-    "side": "Black",
-    "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
-    "played_move": "a6",
-    "best_move": "Nf6",
+    "move_number": 13,
+    "side": "White",
+    "fen": "r1bq1rk1/ppppbppp/2n2n2/4p1B1/2B1P3/3P1N2/PPP2PPP/RN1Q1RK1 w - - 3 7",
+    "played_move": "d4",
+    "best_move": "Nc3",
     "classification": "inaccuracy",
-    "loss": 83,
+    "loss": 50,
     "best_line": [
-      "Nf6"
+      "Nc3",
+      "d6",
+      "a4",
+      "a5",
+      "Be3"
     ]
   },
   {
-    "move_number": 7,
-    "side": "White",
-    "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4",
-    "played_move": "Ba4",
-    "best_move": "Bxc6",
-    "classification": "mistake",
-    "loss": 102,
+    "move_number": 14,
+    "side": "Black",
+    "fen": "r1bq1rk1/ppppbppp/2n2n2/4p1B1/2BPP3/5N2/PPP2PPP/RN1Q1RK1 b - - 0 7",
+    "played_move": "Nxd4",
+    "best_move": "exd4",
+    "classification": "inaccuracy",
+    "loss": 50,
     "best_line": [
-      "Bxc6",
-      "dxc6",
-      "Nxe5"
+      "exd4",
+      "Re1",
+      "h6",
+      "Bxf6",
+      "Bxf6"
+    ]
+  },
+  {
+    "move_number": 18,
+    "side": "Black",
+    "fen": "r1bq1rk1/ppppbppp/5n2/6B1/2BQP3/8/PPP2PPP/RN3RK1 b - - 0 9",
+    "played_move": "Nxe4",
+    "best_move": "d5",
+    "classification": "blunder",
+    "loss": 337,
+    "best_line": [
+      "d5",
+      "exd5",
+      "Nxd5",
+      "Bxe7",
+      "Nxe7"
+    ]
+  },
+  {
+    "move_number": 24,
+    "side": "Black",
+    "fen": "r1b2rk1/ppp1qppp/8/3B4/3Qn3/8/PPP2PPP/RN2R1K1 b - - 0 12",
+    "played_move": "Bf5",
+    "best_move": "Bf5",
+    "classification": "mistake",
+    "loss": 107,
+    "best_line": [
+      "Bf5",
+      "Nc3",
+      "Qd7",
+      "Rxe4",
+      "Bxe4"
+    ]
+  },
+  {
+    "move_number": 25,
+    "side": "White",
+    "fen": "r4rk1/ppp1qppp/8/3B1b2/3Qn3/8/PPP2PPP/RN2R1K1 w - - 1 13",
+    "played_move": "Bxb7",
+    "best_move": "Nc3",
+    "classification": "blunder",
+    "loss": 418,
+    "best_line": [
+      "Nc3",
+      "Qd8",
+      "Rxe4",
+      "Bxe4",
+      "Qxe4"
+    ]
+  },
+  {
+    "move_number": 26,
+    "side": "Black",
+    "fen": "r4rk1/pBp1qppp/8/5b2/3Qn3/8/PPP2PPP/RN2R1K1 b - - 0 13",
+    "played_move": "Rad8",
+    "best_move": "c5",
+    "classification": "inaccuracy",
+    "loss": 54,
+    "best_line": [
+      "c5",
+      "Qd5",
+      "Rad8",
+      "Qxf5",
+      "Qxb7"
+    ]
+  },
+  {
+    "move_number": 31,
+    "side": "White",
+    "fen": "3r1rk1/p1p2ppp/8/8/1q2b3/4Q3/PPP2PPP/RN2R1K1 w - - 0 16",
+    "played_move": "Qxe4",
+    "best_move": "Qc3",
+    "classification": "blunder",
+    "loss": 752,
+    "best_line": [
+      "Qc3",
+      "Qb7",
+      "f3",
+      "Qb6+",
+      "Kh1"
+    ]
+  },
+  {
+    "move_number": 33,
+    "side": "White",
+    "fen": "3r1rk1/p1p2ppp/8/8/4q3/8/PPP2PPP/RN2R1K1 w - - 0 17",
+    "played_move": "Rxe4",
+    "best_move": "Nc3",
+    "classification": "blunder",
+    "loss": 9199,
+    "best_line": [
+      "Nc3",
+      "Qxc2",
+      "Ne4",
+      "Qxb2",
+      "Ng5"
     ]
   }
 ]
